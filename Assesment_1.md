@@ -6,7 +6,7 @@
 
 ## Oracle Live SQL
 
-#🧠  
+# 🧠  
 
 | Python       | DBMS    |
 | ------------ | ------- |
@@ -15,4 +15,6 @@
 | dict values  | rows    |
 | print()      | SELECT  |
 | if condition | WHERE   |
+
+
 ![sql_commands](https://github.com/user-attachments/assets/eac7f7cb-f2b9-44fc-9c19-77062f634e51)
