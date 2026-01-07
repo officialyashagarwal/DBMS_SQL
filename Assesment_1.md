@@ -81,8 +81,8 @@ CREATE TABLE employees (
     hire_date DATE
 );
 ---
-## Alter Command
 ```
+## Alter Command
 ### 1. Add a new column
 ```sql
 ALTER TABLE employees
@@ -95,10 +95,11 @@ ALTER TABLE employees
 MODIFY last_name VARCHAR(100);
 ```
 ### 3. Rename a column
-
 ```sql
+
 ALTER TABLE employees
 RENAME COLUMN first_name TO fname;
+
 ```
 ### 4. Drop (remove) a column
 ```sql
@@ -106,11 +107,13 @@ ALTER TABLE employees
 DROP COLUMN email;
 ```
 ## Rename Command
-```Sql
+
+```sql
+
 RENAME employees TO staff;
 ```
 ## Drop Command
-```Sql
+```sql
 DROP TABLE staff;
 ```
 
