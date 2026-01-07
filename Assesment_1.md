@@ -7,30 +7,22 @@
 ## SQL commands are fundamental building blocks used to perform given operations on database.The operations include queries of data. creating a table, adding data to tables, dropping the table, modifying the table and set permission for users.
 ---
 # 📖 Basic Rules for Writing SQL Command
-## 1. Keywords are UPPERCASE
-### Always write SQL keywords (like SELECT, INSERT, UPDATE, DELETE, CREATE) in uppercase.
-## 2. End every command with a semicolon (;)
-### - A semicolon tells SQL that the command is finished
-## 3. Use single quotes for text values
-### - Strings/text must be inside 'single quotes'.
-## - 4. Table and column names are lowercase or snake_case
-### - Keep names simple, avoid spaces.
-## - Example: student_id, course_name.
-## 5. Indent and format for readability
-### - Write each clause on a new line.
-``` - Example:
-- SELECT id, name
+## 1. Keywords are UPPERCASE ### Always write SQL keywords (like SELECT, INSERT, UPDATE, DELETE, CREATE) in uppercase.
+## 2. End every command with a semicolon (;) ###  A semicolon tells SQL that the command is finished
+## 3. Use single quotes for text values ### Strings/text must be inside 'single quotes'.
+## 4. Table and column names are lowercase or snake_case ### Keep names simple, avoid spaces.
+## Example: student_id, course_name.
+## 5. Indent and format for readability ###  Write each clause on a new line.
+``` Example:
+SELECT id, name
 FROM Students
 WHERE age > 18;
 ```
-## 7. Use comments for clarity
-### - Add -- for single‑line comments.
+## 7. Use comments for clarity ###  Add -- for single‑line comments.
 ```sql comment
 -- This query shows all students
 SELECT * FROM Students;
 ```
-
-
 
 ## Example You are relate with Python also 
 
@@ -60,7 +52,7 @@ SELECT * FROM Students;
  | COMMENT	    | Add comments to the data dictionary	COMMENT ON TABLE table_name IS 'comment_text';
  | RENAME	     | Rename an object existing in the database	RENAME TABLE old_table_name TO new_table_name;
  
-👉 They exist **only for humans**, not for the machine.
+---
 
 ```Sql
 CREATE TABLE employees (
@@ -70,3 +62,10 @@ CREATE TABLE employees (
     hire_date DATE
 );
 ```
+---
+# Some Basic Question to Understand Sql Query's
+✔ Checkpoint Questions
+Write a query for print the employees table
+
+
+``` Sql Questions
