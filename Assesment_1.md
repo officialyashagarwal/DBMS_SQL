@@ -11,7 +11,7 @@
 ## 1. Keywords are UPPERCASE --->  Always write SQL keywords (like SELECT, INSERT, UPDATE, DELETE, CREATE) in uppercase.
 ## 2. End every command with a semicolon (;)---> A semicolon tells SQL that the command is finished
 ## 3. Use single quotes for text values ---> Strings/text must be inside 'single quotes'.
-## 4. Table and column names are lowercase or snake_case ### Keep names simple, avoid spaces. --> Example: student_id, course_name.
+## 4. Table and column names are lowercase or snake_case --> Keep names simple, avoid spaces. --> Example: student_id, course_name.
 ## 5. Indent and format for readability --> Write each clause on a new line.
 ---
 ```Sql
@@ -24,8 +24,26 @@ WHERE age > 18;
 ```sql comment
 -- This query shows all students
 SELECT * FROM Students;
-```
 
+```
+---
+# 📖 Basic Oracle Data Types
+## Character Data Types
+- CHAR(n) → Fixed‑length character string of size n.
+- VARCHAR2(n) → Variable‑length character string up to n characters (most commonly used).
+## Numeric Data Types
+- NUMBER(p,s) → Stores fixed and floating‑point numbers with precision p and scale s.
+- FLOAT(n) → Approximate numeric data type, equivalent to NUMBER.
+## Date and Time Data Types
+- DATE → Stores date and time (year, month, day, hour, minute, second).
+- TIMESTAMP → Stores date and time with fractional seconds.
+
+## ✅ Notes for Students
+- Use VARCHAR2 instead of VARCHAR (Oracle recommends it).
+- NUMBER is the most flexible numeric type; you can define precision and scale.
+- DATE includes both date and time (not just date).
+
+---
 ## Example You are relate with Python also 
 
 | Python       | DBMS    |
