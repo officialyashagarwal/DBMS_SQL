@@ -1,9 +1,12 @@
-# Oracle Live SQL Account Create Karne ke Steps
+# Oracle Live SQL Account Create Link
 
 ## Step 1: Website Open https://profile.oracle.com/myprofile/account/create-account.jspx
 
 
 # 🧠 SQL ( Structure Query Language )  
+## SQL commands are fundamental building blocks used to perform given operations on database.The operations include queries of data. creating a table, adding data to tables, dropping the table, modifying the table and set permission for users.
+
+## Example You are relate with Python also 
 
 | Python       | DBMS    |
 | ------------ | ------- |
@@ -13,11 +16,7 @@
 | print()      | SELECT  |
 | if condition | WHERE   |
 
-## SQL commands are fundamental building blocks used to perform given operations on database. 
-## The operations include queries of data. creating a table, adding data to tables, dropping the table, modifying the table and set permission for users.
-
 ## SQL Commands are mainly categorized into five categories: 
-
 
 ![sql_commands](https://github.com/user-attachments/assets/eac7f7cb-f2b9-44fc-9c19-77062f634e51)
 
