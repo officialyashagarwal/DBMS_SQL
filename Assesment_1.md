@@ -15,11 +15,12 @@
 ## 5. Indent and format for readability --> Write each clause on a new line.
 ---
 ```Sql
+--example
 SELECT id, name
 FROM Students
 WHERE age > 18;
 ```
-## 7. Use comments for clarity ###  Add -- for single‑line comments.
+## 7. Use comments for clarity -->  Add -- for single‑line comments.
 ```sql comment
 -- This query shows all students
 SELECT * FROM Students;
@@ -85,6 +86,14 @@ RENAME COLUMN first_name TO fname;
 ```sql
 ALTER TABLE employees
 DROP COLUMN email;
+```
+## Rename Command
+```Sql
+RENAME employees TO staff;
+```
+## Drop Command
+```Sql
+DROP TABLE staff;
 ```
 
 
