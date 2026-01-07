@@ -34,10 +34,13 @@
  | COMMENT	    | Add comments to the data dictionary	COMMENT ON TABLE table_name IS 'comment_text';
  | RENAME	     | Rename an object existing in the database	RENAME TABLE old_table_name TO new_table_name;
  
-## Example:
+👉 They exist **only for humans**, not for the machine.
+
+```Sql
 CREATE TABLE employees (
     employee_id INT PRIMARY KEY,
     first_name VARCHAR(50),
     last_name VARCHAR(50),
     hire_date DATE
 );
+```
