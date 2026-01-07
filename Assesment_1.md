@@ -53,7 +53,7 @@ SELECT * FROM Students;
  | RENAME	     | Rename an object existing in the database	RENAME TABLE old_table_name TO new_table_name;
  
 ---
-
+# Create Table code
 ```Sql
 CREATE TABLE employees (
     employee_id INT PRIMARY KEY,
@@ -63,9 +63,19 @@ CREATE TABLE employees (
 );
 ```
 ---
+# Insert data in Table
+```insert sql code in two ways
+INSERT INTO employees (employee_id, first_name, last_name, hire_date)
+VALUES (1, 'John', 'Doe', TO_DATE('2026-01-07', 'YYYY-MM-DD'));
+INSERT INTO employees (employee_id, first_name, last_name, hire_date)
+VALUES (2, 'John', 'Doe', TO_DATE('07-Jun-2025'));
+
+```
+---
 # Some Basic Question to Understand Sql Query's
 ✔ Checkpoint Questions
-Write a query for print the employees table
+Write a query for print the employees table.
+Write a query for insert a row in table.
 
 
 ``` Sql Questions
