@@ -63,19 +63,17 @@ CREATE TABLE employees (
 ```
 ---
 # Insert data in Table
-```
--- insert sql code in two ways
-INSERT INTO employees (employee_id, first_name, last_name, hire_date)
-VALUES (1, 'John', 'Doe', TO_DATE('2026-01-07', 'YYYY-MM-DD'));
+
+```Sql
 INSERT INTO employees (employee_id, first_name, last_name, hire_date)
 VALUES (2, 'John', 'Doe', TO_DATE('07-Jun-2025'));
 
 ```
 ---
 # Some Basic Question to Understand Sql Query's
-# ✔ Checkpoint Questions
+## ✔ Checkpoint Questions
 1. Write a query for print the employees table.
 2. Write a query for insert a row in table.
 
 
-``` Sql Questions
+
