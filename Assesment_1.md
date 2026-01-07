@@ -12,9 +12,9 @@
 ## 2. End every command with a semicolon (;)---> A semicolon tells SQL that the command is finished
 ## 3. Use single quotes for text values ---> Strings/text must be inside 'single quotes'.
 ## 4. Table and column names are lowercase or snake_case ### Keep names simple, avoid spaces. --> Example: student_id, course_name.
-## 5. Indent and format for readability ###  Write each clause on a new line.
+## 5. Indent and format for readability --> Write each clause on a new line.
 ---
-``` Example:
+```Sql
 SELECT id, name
 FROM Students
 WHERE age > 18;
@@ -50,7 +50,6 @@ SELECT * FROM Students;
  | DROP	       | Delete objects from the database	DROP TABLE table_name;
  | ALTER	      | Alter the structure of the database	ALTER TABLE table_name ADD COLUMN column_name data_type;
  | TRUNCATE	   | Remove all records from a table, including all spaces allocated for the records are removed	TRUNCATE TABLE table_name;
- | COMMENT	    | Add comments to the data dictionary	COMMENT ON TABLE table_name IS 'comment_text';
  | RENAME	     | Rename an object existing in the database	RENAME TABLE old_table_name TO new_table_name;
  
 ---
@@ -62,15 +61,40 @@ CREATE TABLE employees (
     last_name VARCHAR(50),
     hire_date DATE
 );
-```
 ---
+## Alter Command
+```
+### 1. Add a new column
+```sql
+ALTER TABLE employees
+ADD email VARCHAR(100);
+```
+### 2. Modify a column (change datatype or size)
+
+```sql
+ALTER TABLE employees
+MODIFY last_name VARCHAR(100);
+```
+### 3. Rename a column
+
+```sql
+ALTER TABLE employees
+RENAME COLUMN first_name TO fname;
+```
+### 4. Drop (remove) a column
+```sql
+ALTER TABLE employees
+DROP COLUMN email;
+```
+
+
 # Insert data in Table
 
 ```Sql
 INSERT INTO employees (employee_id, first_name, last_name, hire_date)
 VALUES (2, 'John', 'Doe', TO_DATE('07-Jun-2025'));
-
 ```
+
 ---
 # Some Basic Question to Understand Sql Query's
 ## ✔ Checkpoint Questions
